@@ -1,4 +1,4 @@
-package com.genuitec.webclipse.example.rest;
+package com.xseed.rest;
  
 import java.util.List;
 
@@ -15,9 +15,7 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.Response.Status;
 
-import com.genuitec.webclipse.example.EntityManagerHelper;
-import com.genuitec.webclipse.example.Person;
-import com.genuitec.webclipse.example.Textbox;
+import com.xseed.model.Textbox;
 
  
 
