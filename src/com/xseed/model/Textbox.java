@@ -1,6 +1,8 @@
 package com.xseed.model;
 
+import javax.xml.bind.annotation.XmlRootElement;
 
+@XmlRootElement
 public class Textbox  {
 	
 	private String field;
@@ -10,6 +12,7 @@ public class Textbox  {
 	public Textbox(String string) {
 		this.field = string;
 		}
+	
 	
 
 	public String getField() {
