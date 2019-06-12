@@ -17,14 +17,11 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.Response.Status;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.JsonNode;
+
 import com.google.gson.Gson;
 import com.xseed.model.Funcionario;
 import com.xseed.model.Textbox;
 
-import jdk.nashorn.internal.parser.JSONParser;
-import net.projectmonkey.object.mapper.ObjectMapper;
 
  
 @javax.inject.Singleton
